@@ -5,5 +5,5 @@ let a = 10+3;
 
 // string, number, boolean, bigInt, undefined, null, Symbol
 // array, NaN, Infinity
-console.log(typeof a); // number
-console.log(a); // 13
+// console.log(typeof a); // number
+// console.log(a); // 13

@@ -1,0 +1,23 @@
+{
+  "name": "LearnJSTSPlaywright4x",
+  "version": "1.0.0",
+  "description": "![Learn JavaScript, TypeScript & Playwright: chapter by chapter, built for testers](assets/images/banner.png)",
+  "homepage": "https://github.com/KarthikParri/LearnJSTSPlaywright4x#readme",
+  "bugs": {
+    "url": "https://github.com/KarthikParri/LearnJSTSPlaywright4x/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarthikParri/LearnJSTSPlaywright4x.git"
+  },
+  "license": "ISC",
+  "author": "Karthik",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

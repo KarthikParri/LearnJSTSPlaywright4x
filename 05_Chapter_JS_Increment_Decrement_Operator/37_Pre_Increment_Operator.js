@@ -1,5 +1,5 @@
 // Pre Increment
-// In Pre Increment, the value of the variable is incremented first and then used in the expression.
+// In Pre Increment, First increase the value by 1, then assign the value.
 let a = 10;
 let b = ++a;
 console.log(b);
