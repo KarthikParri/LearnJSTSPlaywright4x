@@ -1,16 +1,18 @@
+console.log( "----------for-------------------");
+//for loop
 let tests = ["login", "checkout", "search"];
 
 for (let i = 0; i < tests.length; i++) {
     console.log(i, tests[i]);
 }
 
-console.log( " ---------for...of---------------");
+console.log( "----------for...of---------------");
 // for...of (cleanest for values)
 for (let test of tests) {
     console.log(test) // values
 }
 
-console.log( " -------forEach Below -----------------");
+console.log( "-------forEach Below ------------");
 
 // forEach (no return value)
 tests.forEach((test, index) => {
@@ -19,7 +21,7 @@ tests.forEach((test, index) => {
 });
 
 
-console.log( " ---------entries()---------------");
+console.log( "----------entries()---------------");
 
 // entries() — index + value
 
@@ -28,7 +30,7 @@ for (let [i, test] of tests.entries()) {
 }
 
 
-console.log( " ---------for...in---------------");
+console.log( "----------for...in-----------------");
 // for...in (index only)
 let students = ["methis", "senthil", "ajay", "rahul"];
 
